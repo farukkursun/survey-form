@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>surveyform</title>
+    <style>
+      /* .container {
+        max-width: 50px;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Clarusway Survey Form</h1>
+      <p>Thank you for taking the time to help us improve the platform</p>
+      <div>
+        <form action="">
+          <label for="ad">Name</label> <br />
+          <br />
+          <input
+            id="ad"
+            type="text"
+            name="isim"
+            value=""
+            placeholder="Enter your name"
+            required
+          />
+          <br />
+          <div>
+            <label for="soyad">Surname</label> <br />
+            <br />
+            <input
+              id="soyad"
+              type="text"
+              name="soyisim"
+              value=""
+              placeholder="Enter your sorname"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="email">EMAIL</label> <br />
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="use@clarusway.com"
+            />
+          </div>
+          <div>
+            <label for="role"
+              >Which option best describes your current role</label
+            >
+            <br />
+            <br />
+            <select name="option" id="role">
+              <optgroup label="sellect current role">
+                <option value="student">Student</option>
+                <option value="teachers">Teachers</option>
+                <option value="ftj">Full Time Jop</option>
+                <option value="ptj">Part Time Jop</option>
+                <option value="ftl">Full Time Lerner</option>
+                <option value="pns">Prefer not to say</option>
+              </optgroup>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label>Would you recommend Clarusway to afriend?</label> <br />
+            <br />
+
+            <input
+              type="radio"
+              name="recommend"
+              id="def"
+              value="Definity, Yes"
+              checked
+            />
+            <label for="def">Definity, Yes</label> <br />
+            <br />
+
+            <input type="radio" name="recommend" id="maybe" value="maybe" />
+            <label for="maybe">Maybe</label> <br />
+            <br />
+
+            <input type="radio" name="recommend" id="nots" value="not sure" />
+            <label for="nots">Not sure</label><br />
+            <br />
+
+            <input
+              type="radio"
+              name="recommend"
+              id="defno"
+              value="definit, No"
+            />
+            <label for="defno">Definity, No</label>
+          </div>
+          <br />
+          <div>
+            <label for="feuture"
+              >What is your favorite feature of Clarusway</label
+            >
+            <br />
+            <br />
+
+            <select name="favorite" id="feuture">
+              <optgroup label="sellect an option">
+                <option value="courses">Courses</option>
+                <option value="projekt">Projekt</option>
+                <option value="comminity">Cominty</option>
+                <option value="mentors">Mentors</option>
+              </optgroup>
+            </select>
+          </div>
+          <div>
+            <label for=""
+              >What would you like to see improved? (Check all that
+              apply)</label
+            ><br />
+            <br />
+
+            <input
+              id="fp"
+              type="checkbox"
+              name="improved"
+              value="Front-end Projects"
+            />
+            <label for="fp">Front-end Projects</label> <br />
+            <br />
+
+            <input
+              type="checkbox"
+              name="improwed"
+              id="bp"
+              value="Back-end Projects"
+            />
+            <label for="bp">Back-end Projects</label> <br />
+            <br />
+
+            <input
+              type="checkbox"
+              name="improved"
+              id="ds"
+              value="Data Science"
+            />
+            <label for="ds">Data Science</label> <br />
+            <br />
+
+            <input
+              type="checkbox"
+              name="improved"
+              id="ac"
+              value="Additional Courses"
+            />
+            <label for="ac">Additional Courses</label> <br />
+            <br />
+          </div>
+          <div>
+            <label for="yorum">Any comments or suggestions?</label>
+            <br />
+            <textarea
+              name="yorum"
+              id="yorum"
+              cols="18"
+              rows="2"
+              style="resize: none"
+              maxlength="100"
+              placeholder="Enter your comment here....Thanks for you"
+            ></textarea>
+          </div>
+          <div>
+            <input type="submit" value="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
